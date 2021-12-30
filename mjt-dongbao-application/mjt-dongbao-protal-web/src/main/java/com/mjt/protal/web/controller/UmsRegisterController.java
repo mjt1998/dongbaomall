@@ -21,10 +21,6 @@ public class UmsRegisterController {
     @Autowired
     UmsMemberService umsMemberService;
 
-    @GetMapping("/hello")
-    public String hello(){
-        return "hello";
-    }
 
     @PostMapping("/register")
     public String register(@RequestBody UmsMemberRegisterParamDTO umsMemberRegisterParamDTO){
@@ -32,9 +28,4 @@ public class UmsRegisterController {
         return registerResult;
     }
 
-    @PostMapping("/login")
-    public String login(@RequestBody UmsMemberLoginParamDto umsMemberLoginParamDto){
-        String login = umsMemberService.login(umsMemberLoginParamDto);
-        return login;
-    }
 }
