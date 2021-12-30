@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mjt-dongbao-sms" />
+        <module name="mjt-dongbao-ums" />
+        <module name="mjt-dongbao-ums-api" />
+        <module name="mjt-dongbao-oms-api" />
+        <module name="mjt-dongbao-pms-api" />
+        <module name="mjt-dongbao-cms-api" />
+        <module name="mjt-dongbao-pay-api" />
+        <module name="mjt-dongbao-tenant" />
+        <module name="mjt-dongbao-cart" />
+        <module name="mjt-dongbao-common-util" />
+        <module name="mjt-dongbao-dictionary" />
+        <module name="mjt-dongbao-protal-web" />
+        <module name="mjt-dongbao-cart-api" />
+        <module name="mjt-dongbao-cms" />
+        <module name="mjt-dongbao-generator" />
+        <module name="mjt-dongbao-common-base" />
+        <module name="mjt-dongbao-manager-web" />
+        <module name="mjt-dongbao-pay" />
+        <module name="mjt-dongbao-sms-api" />
+        <module name="mjt-dongbao-dictionary-api" />
+        <module name="mjt-dongbao-oms" />
+        <module name="mjt-dongbao-pms" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mjt-dongbao-cart" options="-parameters" />
+      <module name="mjt-dongbao-cart-api" options="-parameters" />
+      <module name="mjt-dongbao-cms" options="-parameters" />
+      <module name="mjt-dongbao-cms-api" options="-parameters" />
+      <module name="mjt-dongbao-common-base" options="-parameters" />
+      <module name="mjt-dongbao-common-util" options="-parameters" />
+      <module name="mjt-dongbao-dictionary" options="-parameters" />
+      <module name="mjt-dongbao-dictionary-api" options="-parameters" />
+      <module name="mjt-dongbao-generator" options="-parameters" />
+      <module name="mjt-dongbao-manager-web" options="-parameters" />
+      <module name="mjt-dongbao-oms" options="-parameters" />
+      <module name="mjt-dongbao-oms-api" options="-parameters" />
+      <module name="mjt-dongbao-pay" options="-parameters" />
+      <module name="mjt-dongbao-pay-api" options="-parameters" />
+      <module name="mjt-dongbao-pms" options="-parameters" />
+      <module name="mjt-dongbao-pms-api" options="-parameters" />
+      <module name="mjt-dongbao-protal-web" options="-parameters" />
+      <module name="mjt-dongbao-sms" options="-parameters" />
+      <module name="mjt-dongbao-sms-api" options="-parameters" />
+      <module name="mjt-dongbao-tenant" options="-parameters" />
+      <module name="mjt-dongbao-ums" options="-parameters" />
+      <module name="mjt-dongbao-ums-api" options="-parameters" />
+    </option>
+  </component>
+</project>
